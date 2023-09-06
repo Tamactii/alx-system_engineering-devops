@@ -1,0 +1,2 @@
+#!/bin/bash
+while read -r a && [ "$a" != "oo" ]; do read -r b && echo "$a$b"; done <<< $(printf "%s\n" {a..z}{a..z})
